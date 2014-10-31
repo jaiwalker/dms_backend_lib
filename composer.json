@@ -1,0 +1,29 @@
+{
+    "name": "jai/laravel-library",
+    "description": "General laravel library package",
+    "license" : "MIT",
+    "authors": [
+        {
+            "name": "jai",
+            "email": "kora.jayaram@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "~4"
+    },
+    "require-dev": {
+        "mockery/mockery": "0.9.0",
+        "orchestra/testbench": "2.1.*"
+    },
+   
+    "autoload": {
+        "psr-0": {
+            "Jai\\Library\\": "src/"
+        },
+        "psr-4": {
+            "Jai\\Library\\Tests\\" : "tests/"
+        }
+    },
+    "minimum-stability": "stable"
+}
